@@ -243,3 +243,53 @@ display: block;
     color: red;
     font-size: 60px;
 }
+.section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: url("https://hbomax-images.warnermediacdn.com/module-assets/gradient2.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com") no-repeat fixed;
+    color: white;
+}
+.section5 .info{
+    align-items: center;
+    margin-bottom: 10px;
+}
+.subscribe{
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    /* background-color: aqua; */
+}
+.boxes{
+    flex-basis: 50%;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    min-width: 400px;
+    border-image: url('https://t3.ftcdn.net/jpg/06/16/95/68/360_F_616956840_4le77cN0hlXpwsHunepY1pyMwPC0sj11.jpg');
+    border-image-slice: 20%;
+    border-width: 10px;
+    border-image-repeat: repeat;
+    border-image-slice: 30;
+    gap: 10px;
+
+}
+.section5 .boxes p{
+font-size: 20px;
+}
+.section5 .boxes input{
+    width: 80%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+}
